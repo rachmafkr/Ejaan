@@ -23,12 +23,13 @@ public class SI_RegPagi22166019Latihan25EjaanNama {
         String namaDepan = input.nextLine();
         System.out.println();
 
-        // Mengonversi nama depan ke huruf kecil (untuk memastikan konsistensi)
+        // Mengonversi nama depan ke huruf kecil
         namaDepan = namaDepan.toLowerCase();
 
         // Menampilkan ejaan nama depan huruf demi huruf
         System.out.println("Ejaan untuk \"" + namaDepan + "\" adalah:");
-
+        
+        // Menampilkan ejaan
         for (int i = 0; i < namaDepan.length(); i++) {
             char huruf = namaDepan.charAt(i);
             int urutan = i + 1;
